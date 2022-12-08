@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    text-align: center;
+}
+#main{
+
+    background:repeating-conic-gradient(lightgreen 20%,lightcoral 30%,lightblue 40%);
+    height: 500px;
+    
+    
+}
+#firstBox,#SecondBox,#ThirdBox{
+    width: 300px;
+    height:250px ;
+    background-color: ghostwhite;
+    display: inline-block;
+    margin-top: 100px;
+    border: 2px dashed black;
+    border-radius: 50px;
+
+}
+button{
+    position: relative;
+    top: 200px;
+    width: 100px;
+    height:50px;
+    margin: 25px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius:100px ;
+    
+}
+#btn1{
+    background-color: black;
+    color: chartreuse;
+    border: 3px double white;
+}
+#btn2{
+    background-color: chocolate;
+    border: 3px ridge red;
+    color: ghostwhite;
+    
+}
+#btn3{
+    background-color: magenta;
+    border: 3px inset blue;
+    color: ghostwhite;
+    
+}

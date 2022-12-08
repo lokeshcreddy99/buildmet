@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>build-met</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <div id="main">
+        <div id="firstBox">
+            <button id="btn1" onclick="btn1()">
+                green
+            </button>
+        </div>
+        <div id="SecondBox">
+            <button id="btn2" onclick="btn2()">
+                black
+            </button>
+        </div>
+        <div id="ThirdBox">
+            <button id="btn3" onclick="btn3()">
+                orangered
+            </button>
+        </div>
+    </div>
+    <script src="{% static 'js/textdata.js' %}"></script>
+</body>
+</html>
